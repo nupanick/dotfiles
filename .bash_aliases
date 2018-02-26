@@ -1,0 +1,1 @@
+alias lv='ls -v'

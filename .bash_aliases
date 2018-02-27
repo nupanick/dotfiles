@@ -3,4 +3,4 @@ alias ls='ls -v --color=auto'
 
 # Suggested by Habermann.
 alias qq=exit
-alias back='cd ='
+alias back='cd -'

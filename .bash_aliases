@@ -1,5 +1,10 @@
-# Use "natural" number order by default, rather than alphabetical.
-alias ls='ls -v --color=auto' 
+ls=(
+    /bin/ls 
+    -v                      # 9 comes before 10
+    --color=auto            
+    --ignore='NTUSER.DAT*'  # Hide NTFS garbage
+)
+alias ls="${ls[*]}"
 
 # Suggested by Habermann.
 alias qq=exit

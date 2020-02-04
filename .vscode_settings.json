@@ -1,0 +1,17 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.rulers": [80],
+    "[markdown]": {
+        "editor.tabSize": 2,
+        "editor.wordWrapColumn": 80,
+        "editor.wordWrap": "bounded"
+    },
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "editor.suggestSelection": "first",
+    "python.jediEnabled": true,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "diffEditor.ignoreTrimWhitespace": true
+}

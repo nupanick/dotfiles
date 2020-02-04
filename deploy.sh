@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ln -vi ./.bashrc $HOME
+ln -vi .bashrc $HOME
 ln -vi .bash_profile $HOME
 ln -vi .bash_aliases $HOME
 

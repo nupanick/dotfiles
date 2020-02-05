@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Fix line endings
+sed -i 's/\r$//' .bash_profile
+
 ln -vi .bashrc $HOME
 ln -vi .bash_profile $HOME
 ln -vi .bash_aliases $HOME

@@ -1,3 +1,4 @@
+#!/bin/sh
 ls=(
     /bin/ls 
     -v                      # 9 comes before 10

@@ -115,3 +115,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Load additional scripts from .bashrc.d.
+for file in ~/.bashrc.d/*.bashrc; do
+    source "$file"
+done

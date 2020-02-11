@@ -17,6 +17,6 @@ ln -vbfsT $HERE/bashrc.d     $HOME/.bashrc.d
 # adjust this if you install VSCODE on something besides windows.
 # ~ nupanick@gmail.com 2020-02-04
 if [[ $APPDATA ]]; then
-    ln -vbfs $HERE/vscode_settings.json $APPDATA/Code/User/settings.json
+    ln -vbf $HERE/vscode_settings.json $APPDATA/Code/User/settings.json
 fi
 
